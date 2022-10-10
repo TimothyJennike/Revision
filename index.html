@@ -8,6 +8,16 @@
     <title>Revision</title>
 </head>
 <body>
+    <header>
+        <img src="https://i.postimg.cc/k4MMMZt0/440741778eeb95665204894de5ccec8f.webp" alt="logo">
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <!--Ordered list-->
     <section>
         <h2>Ordered list</h2>
@@ -35,21 +45,22 @@
     <table>
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Surname</th>
-                <th>Cellphone number</th>
+                <th><mark>Name</mark></th>
+                    <th><mark>Surname</mark></th>
+                    <th><mark>Cellphone number</mark></th>
             </tr>
+        
         </thead>
         <tbody>
             <tr>
-                <td>Timothy</td>
-                <td>Jennike</td>
-                <td>0739853441</td>
+                <td><i>Timothy</i></td>
+                <td><i>Jennike</i></td>
+                <td><i>0739853441</i></td>
             </tr>
             <tr>
-                <td>Chante</td>
-                <td>Ponce</td>
-                <td>0812535819</td>
+                <td><i>Chante</i></td>
+                <td><i>Ponce</i></td>
+                <td><i>0812535819</i></td>
             </tr>
         </tbody>
     </table>
@@ -59,6 +70,38 @@
     <h2>Image</h2>
     <img src="https://i.postimg.cc/26mXzgLZ/dell-xps-15-oled-2021-laptop.webp" alt="Laptop">
 </section>
+<!--Form-->
+<section>
+    <h2>Form</h2>
+    <form action="https://formspree.io/f/xoqbljze">
+        <div>
+            <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div>
+            <input type="text" name="surname" placeholder="Enter your surname">
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Enter your password">
+        </div>
+        <div>
+            <span>Male</span> <input type="radio" name="gender">
+            <span>Female</span> <input type="radio" name="gender">
+        </div>
+        <div>
+            <label>Subjects:</label>
+            <span>HTML 5<input type="checkbox" name="subject" ></span>
+            <span>CSS 3<input type="checkbox" name="subject" ></span>
+            <span>Bootstrap<input type="checkbox" name="subject" ></span>
+            <span>JavaScript<input type="checkbox" name="subject" ></span>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</section>
+<footer>
+    <p>Copyright &copy;2022</p>
+</footer>
 </body>
 </html>
 
